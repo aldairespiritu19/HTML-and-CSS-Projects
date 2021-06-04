@@ -3,7 +3,7 @@
     -------------------------------------*/
 p {
     font-weight: 300;
-    line-height: 30px
+    line-height: 30px;
     padding-bottom: 15px;
 }
 
@@ -41,7 +41,7 @@ p {
     left: 0;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: center; /* For centering text inside .photo-container */
+    justify-content: center; /* For centering text inside .photo-overlay */
     align-items: center;
     background: rgba(0,0,0, .5);
 }
@@ -53,9 +53,9 @@ p {
     padding-bottom: 20px;
 }
 
-/*---------------------------------------
+/* ---------------------------------------
     PHOTO Overlay Transitions
------------------------------------------ */
+------------------------------------------ */
 
 .photo-overlay {
     opacity: 0;
@@ -74,7 +74,7 @@ p {
 
 .photo img {
     transition: transform .5s;
-    transform: scale(1.1);
+    transform-origin: 50% 50%;
 }
 
 .photo:hover img {

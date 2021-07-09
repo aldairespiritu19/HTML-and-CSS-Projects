@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <title>Academy cinemas</title>
   </head>
@@ -19,22 +19,21 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">Showtimes</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">Deals</a>
-                </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#about">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#showtimes">Showtimes</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-light" href="#deals">Deals</a>
+                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search">
-                <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    <button class="btn btn-primary my-2 my-sm-0 text-light" type="submit">Search</button>
                 </form>
             </div>
-    </div>
         </nav>
 
     <div class="jumbotron jumbotron-fluid bg-info text-center">
@@ -81,31 +80,35 @@
 
     <!-- showtimes -->
     <div id="showtimes">
-        <div class="card my-3" style="float:left; width: 25%; margin-right: 1%;">
-            <img src="./img/kongskullisland.jpg" class="card-img-top"
+        <div class="card my-3" style="float:left; width: 31%; margin-right: 3%;">
+            <img class="card-img-top" src="./img/kongskullisland.jpg"
                 alt="Card image cap">
-            <div class="card-body">
+            <div class="card-block">
                 <h5 class="card-title">Kong: Skull Island</h5>
-                <p>A team of scientists explore an uncharted island in the Pacific, venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.</p> <br>
-                <a href="#" class="mb-3 badge badge-info bg-info">12:00pm</a>
+                <p class="card-text">A team of scientists explore an uncharted island in the Pacific,
+                     venturing into the domain of the mighty Kong, and must fight 
+                     to escape a primal Eden.</p> <br>
+                <a href="#" class="mb-3 badge badge-info bg-info">12:00</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">1:30pm</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">3:00pm</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">5:30pm</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">7:00pm</a>
-                <a href="#" class="mb-3 badge badge-info bg-info">9:30pm</a>
+                <a href="#" class="mb-3 badge badge-info bg-info">9:30pm</a>  
             </div>
             <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>         
             </div>
         </div>
-        </div>
     </div>   
-        <div class="card my-3" style="float:left; width: 25%; margin-right: 1%;">
-            <img src="./img/ghostintheshell.jpg" class="card-img-top" 
+    <div id="showtimes">
+        <div class="card my-3" style="float: left; width: 31%; margin-right: 3%;">
+            <img class="card-img-top" src="./img/ghostintheshell.jpg"
                 alt="Card image cap">
-            <div class="card-body">
+            <div class="card-block">
                 <h5 class="card-title">Ghost in the shell</h5>
-                <p class="card-text">In the near future, Major Mila Killian is the first of her kind: a human saved from a terrible crash, who is cyber-enchanced to be a perfect soldier devoted to stopping the world's most dangerous criminals.</p> <br>
+                <p class="card-text">In the near future, Major Mila Killian is the first of her kind: a human saved from a terrible crash,
+                     who is cyber-enchanced to be a perfect soldier devoted to
+                     stopping the world's most dangerous criminals.</p> <br>
                 <a href="#" class="mb-3 badge badge-info bg-info">12:00</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">1:30pm</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">3:00pm</a>
@@ -116,13 +119,16 @@
             <div class="card-footer">
                 <small class="text-muted">Last updated 3 mins ago</small>
             </div>
-        </div>     
-        <div class="card my-3" style="width: 25%;">
-            <img src="./img/beautyandthebeast.jpg" class="card-img-top" 
-                alt="Card image cap">
-            <div class="card-body">
+        </div>
+    </div>     
+        <div id="showtimes">
+            <div class="card my-3" style="width: 31%;">
+                <img class="card-img-top" src="./img/beautyandthebeast.jpg"
+                    alt="Card image cap">
+            <div class="card-block">
                 <h5 class="card-title">Beauty and the Beast</h5>
-                <p class="card-text">A selfish prince is cursed to become a monster for the rest of his life, unless he learns to fall in love with a woman he keeps as prisoner.</p> <br> <br>
+                <p class="card-text">A selfish prince is cursed to become a monster for the rest of his life,
+                     unless he learns to fall in love with a woman he keeps as prisoner.</p> <br> <br>
                 <a href="#" class="mb-3 badge badge-info bg-info">12:00</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">1:30pm</a>
                 <a href="#" class="mb-3 badge badge-info bg-info">3:00pm</a>
@@ -134,6 +140,7 @@
                 <small class="text-muted">Last updated 3 mins ago</small>
             </div>
         </div>
+    </div>
     
      <!-- /showtimes --> 
 
@@ -237,21 +244,11 @@
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-    -->
+    
     <script>
-        $('.popover-dismiss').popover({
-            trigger: 'focus'
-        })
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+    })
     </script>
-
-
   </body>
 </html>
